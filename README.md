@@ -30,7 +30,7 @@ Create one R script called run_analysis.R that does the following:
 7. Load the test group datasets
 8. merge train and test datasets (rbind), add colume labels
 9. change activitiesLabels & subjects into factors
-10. merge the "subjects" and "activitiesLabels" factors into the first two columes of allData dataframe. write the tidy data called         Write a new table called "alldata_tidy.txt"
+10. merge the "subjects" and "activitiesLabels" factors into the first two columes of allData dataframe. Write the tidy data called "alldata_tidy.txt"
 11. caltulate average of each variable for each activity and each subject. Write a new table called "allData.mean.txt"
 
 ## The "run_analysis.R" script and the "alldata_tidy.txt" file in this repository were generated using RStudio Version 1.1.383 (2015-08-14) on Intel Mac OS X 10_13_3. 
