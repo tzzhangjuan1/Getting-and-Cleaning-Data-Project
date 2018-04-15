@@ -18,7 +18,7 @@ The "allData.mean.txt"calculated the average of each subject/activities, so it c
        STANDING -subject was standing
        LAYING -subject was laying
        
--The 3 to 81 columns (listed below) are subsetted from "features names" that contains "mean" and "std". The names were changed (see the "# change the features names" step in the run_analysis.R script.
+- The 3 to 81 columns (listed below) are subsetted from "features names" that contains "mean" and "std". The names were changed (see the "# change the features names" step in the run_analysis.R script.
  The 3 to 81 columns (variables):
        [3] "tBodyAccMeanX"                "tBodyAccMeanY"               
        [5] "tBodyAccMeanZ"                "tBodyAccStdX"                
