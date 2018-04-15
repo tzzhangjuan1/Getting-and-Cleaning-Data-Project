@@ -5,8 +5,19 @@ The "allData_tidy.txt" contains 81 columns (variables) and 10299 rows (observati
 The "allData.mean.txt"calculated the average of each subject/activities, so it contains 81 columns (variables) and 180 rows (mean observations - for each subject/activities).
 
 ## The 81 columns (variables) in both of the "allData_tidy.txt" and "allData.mean.txt" files
-- The 1st column is "subject", load from "UCI HAR Dataset/train/subject_train.txt" and "UCI HAR Dataset/test/subject_test.txt" repectively.
-- The 2nd column is "activity", activityLabels subsetted from the 2nd column of "UCI HAR Dataset/activity_labels.txt". 
+- The 1st column is "subject", integer, ranges from 1 to 30. 
+  It is load from "UCI HAR Dataset/train/subject_train.txt" and "UCI HAR Dataset/test/subject_test.txt" repectively.
+  
+- The 2nd column is "activity" (listed below). 
+  It is subsetted from the 2nd column of "UCI HAR Dataset/activity_labels.txt". 
+ The activiry labels:
+       WALKING -subject was walking
+       WALKING_UPSTAIRS -subject was walking upstairs
+       WALKING_DOWNSTAIRS -subject was walking downstairs
+       SITTING -subject was sitting
+       STANDING -subject was standing
+       LAYING -subject was laying
+       
 -The 3~81 columns (listed below) are subsetted from "features names" that contains "mean" and "std". The names were changed (see the "# change the features names" step in the run_analysis.R script.
  The 3~81 columns (variables):
        [3] "tBodyAccMeanX"                "tBodyAccMeanY"               
