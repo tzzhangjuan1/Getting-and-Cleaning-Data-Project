@@ -6,12 +6,15 @@ The "allData.mean.txt"calculated the average of each subject/activities, so it c
 
 ## The 81 columns (variables) in both of the "allData_tidy.txt" and "allData.mean.txt" files
 - The 1st column is "subject", integer, ranges from 1 to 30.
+  
   It is load from "UCI HAR Dataset/train/subject_train.txt" and "UCI HAR Dataset/test/subject_test.txt" repectively.
   
 - The 2nd column is "activity" (listed below). 
+  
   It is subsetted from the 2nd column of "UCI HAR Dataset/activity_labels.txt". 
   
   The activiry labels:
+  
        WALKING -subject was walking
        WALKING_UPSTAIRS -subject was walking upstairs
        WALKING_DOWNSTAIRS -subject was walking downstairs
@@ -19,9 +22,11 @@ The "allData.mean.txt"calculated the average of each subject/activities, so it c
        STANDING -subject was standing
        LAYING -subject was laying
        
-- The 3 to 81 columns (listed below) are subsetted from "features names" that contains "mean" and "std". The names were changed (see the "# change the features names" step in the run_analysis.R script.
+- The 3 to 81 columns (listed below) are subsetted from "features names" that contains "mean" and "std". 
+  The names were changed (see the "# change the features names" step in the run_analysis.R script.
  
  The 3 to 81 columns (variables):
+ 
        [3] "tBodyAccMeanX"                "tBodyAccMeanY"               
        [5] "tBodyAccMeanZ"                "tBodyAccStdX"                
        [7] "tBodyAccStdY"                 "tBodyAccStdZ"                
