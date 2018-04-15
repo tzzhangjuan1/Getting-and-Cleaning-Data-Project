@@ -69,13 +69,13 @@ The "allData.mean.txt"calculated the average of each subject/activities, so it c
       [81] "fBodyBodyGyroJerkMagMeanFreq"
 
 
-## The rows list in "allData.mean.txt" files
+## The rows listed in "allData.mean.txt" files
 
- - here calculated the mean value of each of 6 activities for the 30 subjuects - the 10299 rows in the "allData_tidy.txt" file.
+ - here calculated the mean value of each of 6 activities measured for the 30 subjuects - the 10299 rows in the "allData_tidy.txt" file.
  
       > allData.mean[,1:2]
       
-             subject           activity
+           subject           activity
        1         1            WALKING
        2         1   WALKING_UPSTAIRS
        3         1 WALKING_DOWNSTAIRS
