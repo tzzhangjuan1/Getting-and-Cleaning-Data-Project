@@ -20,7 +20,7 @@ Create one R script called run_analysis.R that does the following:
 4. alldata_tidy.txt -- The tidy dataframe that contains datasets from both the "train" and "test" groups, with descriptive variable names and descriptive activity names.
 5. allData.mean.txt -- An independent tidy data set with the average of each variable for each activity and each subject.
 
-## Overview of steps to generate the tidy dataframe:
+## Overview of steps to generate the tidy dataframe (details found in the run_analysis.R script):
 1. download packages
 2. downlaod and unzip file fold
 3. Load activitylabels + features, change into a list of charaters
